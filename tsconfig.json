@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "lib": [
+      "ES6",
+      "DOM",
+      "ESNext"
+    ],
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+  },
+  "include": [
+    "src/*"  // 导入目录
+  ]
+}
